@@ -1,0 +1,33 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+html *, body * {
+    box-sizing: content-box;
+}
+.cells {
+    float: left;
+    border: solid 1px;
+    padding: 0;
+    margin: 1px;
+    width: 24.788%;
+    overflow-y: hidden;
+}
+h2 {
+    background: #ccc;
+    padding: 5px 0;
+    margin: 0;
+    text-align: center;
+}
+p {
+    padding: 3px;  
+}
+.clear {
+    clear: both;
+}
+section {
+    width: 45%;
+    float: left;
+    margin: 10px;
+    max-height: 100%;
+}
